@@ -455,12 +455,12 @@ export const UserDashboard = ({ userType, username }: UserDashboardProps) => {
                     لمعرفة الوحدات المتبقية في باقتك، اطلب الكود التالي (التكلفة: 4 قروش)
                   </p>
                   <div className="flex items-center gap-2 bg-gray-800/50 p-3 rounded border">
-                    <code className="text-orange-400 font-mono text-lg flex-1">*16*1*1#</code>
+                    <code className="text-orange-400 font-mono text-lg flex-1">#16*1*1#</code>
                     <Button
                       variant="outline"
                       size="sm"
                       onClick={() => {
-                        navigator.clipboard.writeText('*16*1*1#');
+                        navigator.clipboard.writeText('#16*1*1#');
                         toast({
                           title: "تم النسخ",
                           description: "تم نسخ الكود بنجاح",
