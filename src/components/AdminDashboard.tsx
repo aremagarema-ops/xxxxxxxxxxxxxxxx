@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Dashboard } from "@/components/Dashboard";
-import { CustomerTable } from "@/components/CustomerTable";
+import CustomerTable from "@/components/CustomerTable";
 import { CustomerForm } from "@/components/CustomerForm";
 import { BulkCustomerForm } from "@/components/BulkCustomerForm";
 import { BulkEditForm } from "@/components/BulkEditForm";
